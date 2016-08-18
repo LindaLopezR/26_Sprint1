@@ -1,0 +1,86 @@
+/* Inserta tu codigo aqui */
+/*LETRAS*/
+.curs {
+	color: #F6bb74;
+}
+.c1 {
+	font-size: 450%;
+}
+.curs, .c2, .c1 {
+	font-family: "Courgette";
+}
+.cWhite, form, .c2 {
+	color: white;
+}
+/*MARGENES*/
+.mto1 {
+	margin-top: 3%;
+}
+.pbo1 {
+	padding-bottom: 5%;
+}
+.pbo2 {
+	margin-bottom: 3%;
+}
+.pa1 {
+	padding: 3%;
+}
+/*ENCABEZADO Y MENÚ*/
+.lg {
+	width: 47%;
+}
+/*CONTENIDO*/
+.fondo {	
+	background-image: url(../image/header-image.jpg);
+	background-position: center;
+	background-size: 98% 100%;
+	background-repeat: no-repeat;
+	margin: 3% 0;
+}
+.texto {
+	margin: 10% 25%;
+	padding: 3% 0;
+}
+.boto1 {
+	padding: 3% 2%;
+}
+input {
+	border: none;
+	padding: 2% 0 2% 2%;
+	border-radius: 5px;
+}
+/*COLORES*/
+.texto, footer, .negro {
+	background-color: #15131F;
+}
+section, input, header {
+	background-color: #2E2B40;
+}
+.nk {
+	color: #2E2B40;
+}
+  i {
+	background-color: black;
+}
+/*IMAGENES E ICONOS*/
+img {
+	width: 100%;
+}
+i {
+	border-radius: 100%;
+	padding: 1.7% 2%;
+	color: white;
+}
+/* Responsive */
+@media screen and (max-width : 920px) {
+	
+}
+@media screen and (max-width: 600px) {
+	.texto {
+			width: 65%;
+			margin: auto;
+		}
+	header nav{
+		padding: 0 15% 0 10%;
+	}
+}
